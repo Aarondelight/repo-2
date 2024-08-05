@@ -1,0 +1,38 @@
+let menu =document.querySelector('#menu-bars')
+let header =document.querySelector('header')
+
+menu.onclick = () =>{
+    menu.classlist.toggle('fa_times');
+    header.classlist.toggle('active');
+}
+
+window.onscroll = () =>{
+    menu.classlist.toggle('fa_times');
+    header.classlist.toggle('active');
+}
+
+let cursor1 = document.querySelector('cursor_1')
+let cursor2 = document.querySelector('cursor_2')
+
+window.onmousemove =() =>{
+    cursor1.style.top = e.pagey -+-'px';
+
+    cursor1.style.top = e.pagey -+-'px';
+
+    cursor2.style.top = e.pagex -+-'px';
+
+    cursor2.style.top = e.pagex -+-'px';
+}
+let links = document.querySelectorAll('a').forEach(links=>{
+   links.onmouseenter = () =>{
+    cursor1.classlist.add('active');
+
+    cursor2.classlist.add('active');
+   } 
+
+   links.onmouseleave = () =>{
+    cursor1.classlist.remove('active');
+
+    cursor2.classlist.remove('active');
+   }
+})

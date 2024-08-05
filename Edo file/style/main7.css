@@ -1,0 +1,146 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/netflix\ background.jpeg);
+}
+nav{
+    display: flex;
+    justify-content: left;
+}
+
+.logo{
+    width: 100%;
+    height: 72.35px;
+    color: red;
+    font-weight: 400px;
+    font-size: 20px;
+    border: none;
+    font-family: impact;
+    
+}
+.sign{
+    background-color: red;
+    font-size: 15px;
+    color: aliceblue;
+    border-radius: 14px;
+    border: none;
+    float: right;
+    height: 40px;
+    width: 100px;
+   margin-bottom: 80px;
+    margin-left: 200px;
+}
+
+.h12{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 300px;
+    text-align: center;
+    font-family: sans-serif;
+    flex: 1;
+    margin-top: 50px;
+}
+p{
+
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 300px;
+    text-align: center;
+    font-family: sans-serif;
+    flex: 1;
+    margin-top: 20px;
+}
+input{
+    width: 400px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 300px;
+    font-family: sans-serif;
+    flex: 1;
+    margin-top: 20px;
+    background: transparent;
+    border-radius: 5px;
+
+    }
+    .start{
+        
+    width: 200px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 300px;
+    text-align: center;
+    font-family: sans-serif;
+    flex: 1;
+    margin-top: 20px;
+    text-align: center;
+    background-color: red;
+    border: none;
+    }
+    a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+  
+ .lay1{
+    background-color: black;
+    color: aliceblue;
+    flex: 2;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 5px;
+ }
+ .lay1 h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300px;
+    text-align: center;
+
+ }
+ .bbnn{
+    width: 1150px;
+    height: 40px;
+    background:rgb(30, 28, 28);
+    border: none;
+    color: aliceblue;
+    font-size: 17px;
+    padding-top: 5px;
+ }
+ .facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+ }
+ .facilities-col{
+    flex-basis: 32%;
+    text-align: center;
+    margin-bottom: 5%;
+    text-align: left;
+    border-radius: 15px;
+ }
+ .facilities-col p{
+    padding: 0%;
+
+ }
+ .facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+ }
+ .facilities-col h3{
+    margin-top: 15px;
+    margin-bottom: 16px;
+    text-align: left;
+ }
